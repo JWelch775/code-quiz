@@ -14,6 +14,7 @@ var savedName;
 var savedScore;
 var clearTime;
 var score = 100;
+
 var timer = 60;
 
 var wrongAnswer = function() {

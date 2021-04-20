@@ -67,3 +67,84 @@ header button {
     width: 15%;
     background-color: #707070;
 }
+
+section {
+    display: block;
+    justify-content: center;
+    height: 100%;
+}
+
+section h3 {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 0 0;
+}
+
+main ul {
+    height: 80%;
+    padding: 3% 0 0 0;
+}
+
+main li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 15%;
+    padding: 1%;
+}
+
+main button {
+    background-color: #f2ff41;
+    color: #000000;
+    height: 100%;
+    width: 30%;
+}
+
+#all-scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#all-scores h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20% 0 2% 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 25% 0 25%;
+    height: 20%;
+}
+
+.username {
+    width: 1%;
+    margin: 0 3% 0 3%;
+    list-style: none;
+}
+
+.userscore {
+    list-style: none;
+    width: 1%;
+    padding: 0 3% 0 3%;
+}
+
+form label {
+    font-size: x-large;
+    font-weight: 1000;
+    padding: 0 8% 0 0;
+}
+
+input {
+    height: 60%;
+    width: 40%;
+}
+
+#submit-me {
+    height: 68%;
+    width: 15%;
+    background-color: #cebe92;
+}
